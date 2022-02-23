@@ -1,0 +1,456 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A discourse concerning Ananias and Saphira wherein is laid open thier sin &amp; punishment. By William Houghton, minister of Ordsoll in Nottinghamshire.</title>
+            <author>Houghton, William, preacher at Bicknor in Kent.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1661</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 55 KB of XML-encoded text transcribed from 12 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A44606</idno>
+            <idno type="STC">Wing H2937A</idno>
+            <idno type="STC">ESTC R215974</idno>
+            <idno type="EEBO-CITATION">99827730</idno>
+            <idno type="PROQUEST">99827730</idno>
+            <idno type="VID">32153</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A44606)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 32153)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1851:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A discourse concerning Ananias and Saphira wherein is laid open thier sin &amp; punishment. By William Houghton, minister of Ordsoll in Nottinghamshire.</title>
+                  <author>Houghton, William, preacher at Bicknor in Kent.</author>
+               </titleStmt>
+               <extent>[4], 18 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by J.H. for Nathanael Webb, at the Kings Head in St. Pauls Church-Yard,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1661.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Running title reads: A discourse against sacriledge.</note>
+                  <note>Reproduction of the original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  N.T. --  Acts V, 3 --  Commentaries --  Early works to 1800.</term>
+               <term>Sacrilege --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-05</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2009-07</date>
+            <label>SPi Global</label>Rekeyed and resubmitted</change>
+         <change>
+            <date>2011-07</date>
+            <label>Holly Beeman</label>Sampled and proofread</change>
+         <change>
+            <date>2011-07</date>
+            <label>Holly Beeman</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:32153:1" rendition="simple:additions"/>
+            <p>A DISCOURSE CONCERNING Ananias and Saphira, Wherein is laid open Their SIN &amp; PUNISHMENT.</p>
+            <p>BY <hi>William Houghton,</hi> Miniſter of <hi>Ordſoll</hi> in <hi>Nottinghamſhire.</hi>
+            </p>
+            <q>
+               <bibl>
+                  <hi>1 Cor. 10.6, 11.</hi>
+               </bibl>
+               <p>Theſe things happened unto them for examples, and are written for our admonition.</p>
+               <bibl>
+                  <hi>Rom. 2.22.</hi>
+               </bibl>
+               <p>Thou that abhorreſt Idolls, committeſt thou Sacriledge?</p>
+            </q>
+            <q>
+               <p>Many who have fled from Idolatry, and reformed the Worſhip of God from that pollution <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, that is, by bending the crooked ſtick too much the other way, have run too far into the contrary extream, and taken away (ſome of us) all difference in a manner between Sacred and Prophane, and in ſo doing made our ſelves lyable to that upbraid of the Apoſtle: <hi>Tu qui idola abominaris, Sacrilegium admittis?</hi> 
+                  <bibl>Mede Diatr. 74.</bibl>
+               </p>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>J. H.</hi> for <hi>Nathanael Webb,</hi> at the Kings Head in St. <hi>Pauls</hi> Church-Yard, 1661.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:32153:2" rendition="simple:additions"/>
+            <pb facs="tcp:32153:2"/>
+            <head>To the Reader.</head>
+            <p>
+               <seg rend="decorInit">W</seg>Hen <hi>Adam</hi> and <hi>Eve</hi> had ſinned in eating the forbidden fruit, <hi>Eve</hi> was firſt called forth and ſentenced, then <hi>Adam:</hi> Here on the contrary, firſt <hi>Ananias,</hi> then <hi>Saphira.</hi> The reaſon here<g ref="char:EOLhyphen"/>of, I conceive, was this, becauſe there the woman was firſt in the tranſgreſsion, but here the man: There the Husband was conſenting to the Wife,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> here the Wife was con<g ref="char:EOLhyphen"/>ſenting to the Husband. It is not a queſtion this much materi<g ref="char:EOLhyphen"/>al to be ſtood upon which of them ſinned firſt, it is likely there was no long ſpace of time between them: In ſuch a nearneſs as is between head and body the infection ran ſuddenly from one to the other. This therefore ſhould rather take up our thoughts and meditations,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, Rom. 1.32.</note> that as they were conſenting toge<g ref="char:EOLhyphen"/>ther in ſin, ſo were they partakers in the puniſhment, this was the juſt judgement of God upon them; and this joyning toge<g ref="char:EOLhyphen"/>ther in ſin is the cauſe of moſt general judgments. As ſheep, having infected one another, die together of the rot: ſo when people have generally corrupted one another, they fall and periſh together by Sword, Famine, or Peſtilence. Therefore the firſt counſel both <hi>David</hi> and <hi>Solomon</hi> give in the Pſalms and Proverbs, is, <hi>not to walk in the way of the ungodly,</hi> and, <hi>If ſinners entice thee conſent thou not.</hi> Eſpecially, as thou loveſt thy ſoul, have a care to keep thy ſelf from this ſin of Sa<g ref="char:EOLhyphen"/>criledge, and walk not in the way of <hi>Ananias.</hi> Many there are who count all gain godlineſs, therefore Sacriledge is not
+<pb facs="tcp:32153:3"/>thought to be a ſin by ſuch men, but being weighed by the bal<g ref="char:EOLhyphen"/>lance of the Sanctuary, and the heavy judgments of God upon it, it will be found to be a great and grievous ſin, highly pro<g ref="char:EOLhyphen"/>voking the eyes of Gods glory. The ſin of <hi>Adam</hi> and <hi>Eve</hi> was the ſin of Sacriledge, and the first ſin that was puniſht in the Old Teſtament: This ſin of <hi>Ananias</hi> and <hi>Saphira</hi> the ſin alſo of Sacriledge, and the firſt that we read of that was pu<g ref="char:EOLhyphen"/>niſht in the New Teſtament, after the deſcending of the Holy Ghoſt: <hi>Surely therefore</hi> (as <hi>Solomon</hi> ſaith) <hi>it is a ſnare to the man that devoureth that which is holy:</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ov 20 15.</note> If thou beeſt wiſe keep thy ſelf out of this ſnare,<note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>v. 18 4.</note> and be not partaker with others in this ſin, that thou receive not hereafter of their plagues.</p>
+            <closer>
+               <signed>W. H.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="discourse">
+            <pb n="1" facs="tcp:32153:3"/>
+            <head>A Diſcourſe concerning <hi>ANANIAS</hi> and <hi>SAPHIRA.</hi>
+            </head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>ACT. 5.3.</hi>
+                  </bibl>
+                  <p>Why hath Satan filled thy heart to lye to the Holy Ghoſt, and to keep back part of the price of the Land?</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">I</seg>N this Hiſtory of <hi>Ananias</hi> and <hi>Saphira</hi> three things are to be conſidered.</p>
+            <p>Firſt, Their fact in three particulars:</p>
+            <list>
+               <item>1. Selling of a poſſeſſion.</item>
+               <item>2. Keeping back part of the price.</item>
+               <item>3. Laying down a certain part at the Apoſtles feet, <hi>V.</hi> 1.</item>
+            </list>
+            <p>Secondly, The Examination and Trial, which was ſeveral; 1. Of <hi>Ananias,</hi> to <hi>v.</hi> 7. then of <hi>Saphira,</hi> to <hi>v.</hi> 12. <hi>Peter</hi> is the Juſtice before whom they are brought by Gods Providence: His Examination or Trial of <hi>Ananias,</hi> hath in it, 1. Three Queſtions. And 2. The Sentence given.</p>
+            <p n="1">I. The Firſt Queſtion ſheweth the nature of his ſin, <hi>v.</hi> 3.</p>
+            <p n="2">II. The Second, That it proceeded from his own will; and that as he was not conſtrained to ſell or give away his Land, ſo there was no outward compulſion uſed to conſtrain him to keep back part of the price: Both before and after the Sale, it was in his own power, <hi>v.</hi> 4.</p>
+            <pb n="2" facs="tcp:32153:4"/>
+            <p n="3">III The third Queſtion ſheweth, that his ſin was very abſurd, though firmly ſetled in his mind, and that there was no cauſe why he ſhould ſo reſolutely yield to the temptation of the devil; <hi>Why haſt thou conceived this thing in thy heart? v.</hi> 6.</p>
+            <p n="2">2. His definitive ſentence, being the fore-runner of Gods Judgement: <hi>Thou haſt not lied unto men, but unto God,</hi> v. 4.</p>
+            <p n="3">3. The events three:
+<list>
+                  <item>1. In <hi>Ananias</hi> ſudden death, the ſtrange judgement of God upon him for his ſin, <hi>v.</hi> 5.</item>
+                  <item>2. In all that heard it, <hi>fear, v.</hi> 5.</item>
+                  <item>3. In certain young men the performance of a duty, <hi>viz.</hi> his burial, <hi>v.</hi> 6.</item>
+               </list>
+            </p>
+            <p>In the arraignment of <hi>Saphira</hi> after her appearance, deſcribed by the circumſtance of time, and her ignorance of the precedent judgment, <hi>v.</hi> 7. we may obſerve the ſame parts as before, <hi>viz.</hi>
+            </p>
+            <p>Firſt, Two Queſtions:
+<list>
+                  <item>1. To the former, whereof ſhe anſwers affirmatively againſt her conſcience, that they ſold it for ſo much, <hi>v.</hi> 8.</item>
+                  <item>2. In the ſecond <hi>Peter</hi> aggravates their ſin by their mutu<g ref="char:EOLhyphen"/>all conſent, and calleth it by another name, <hi>viz. A tempting of the Holy Ghoſt,</hi> v. 9.</item>
+               </list>
+            </p>
+            <p>Secondly, The ſentence uttered, with relation to the judgment of her husband, <hi>v.</hi> 9. end.</p>
+            <p>Thirdly, The three former events are rehearſed, though not in the ſame order, <hi>v.</hi> 10, 11.</p>
+            <p>This is the logical Analyſis, or reſolution of the whole Hiſtory; but becauſe my purpoſe is to ſhew the nature of their ſin, I will forbear to handle any other part ſave only <hi>Peters</hi> firſt Queſtion, in theſe words: <hi>Why hath Satan filled thy heart to lye to the Holy Ghoſt, and to keep back part of the Price of the Land?</hi> Wherein this ſin of <hi>Ananias</hi> is ſet forth by five Arguments:
+<list>
+                  <item>1. The author, or firſt mover, <hi>Satan,</hi>
+                  </item>
+                  <item>2. The meaſure of corruption, <hi>Filled.</hi>
+                  </item>
+                  <item>3 The ſubject, or ſhop of Satan, <hi>the Heart.</hi>
+                  </item>
+                  <item>4. The matter of their ſin, it was a counterfeiting of, or <hi>Lying to the Holy Ghoſt.</hi>
+                  </item>
+                  <item>5. The manner of it, <hi>By turning aſide part of the Price of the Land.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/>
+               <hi>But Peter</hi> ſaid, <hi>Ananias,</hi> &amp;c. Firſt then of the author that ſet
+<pb n="3" facs="tcp:32153:4"/>them a work, Satan; the word ſignifieth an Adverſary:<note place="margin">Why hath Satan.</note> that ene<g ref="char:EOLhyphen"/>my of Piety, and murtherer of Mankind, that root of malice, and Prince of all wickedneſs, the Father of lies, that great Dragon,<note place="margin">Rev. 12.9.</note> that old Serpent called the devil and Satan; he is <hi>veteranus,</hi> an old ex<g ref="char:EOLhyphen"/>perienced Souldier, that rejoyceth not ſo much to have his hand in ſmall attempts, as to be ſeen in great exploits; <hi>Facinus mag<g ref="char:EOLhyphen"/>num, &amp; memorabile,</hi> ſome notorious miſchief is to be expected when he comes upon the ſtage: When he tempted <hi>Eve</hi> to eat the forbidden fruit, he brought a lamentable calamity upon all mankind; when he by one of his evill angels came upon <hi>Saul, Saul</hi> throws his ſpear at <hi>David,</hi> thinking to nail him to the wall;<note place="margin">1 Sam. 18.11.</note> When Satan ſtood up againſt <hi>Iſrael,</hi>
+               <note place="margin">2 Sam. 19.10.</note> and provoked <hi>David</hi> to num<g ref="char:EOLhyphen"/>ber the people, it put him into a great ſtraight,<note place="margin">1 Chron. 21.</note> 
+               <hi>and there fell of Iſrael</hi> 70000 men: And when Satan, after the Sop,<note place="margin">1. —14.</note> entred into <hi>Judas,</hi> he moſt unnaturally betrayed his Maſter,<note place="margin">Joh. 13.2.27.</note> and moſt ungra<g ref="char:EOLhyphen"/>tiouſly ſold him for thirty peeces, that was preſently to redeem us with the ranſome of his moſt precious bloud: So here, when Sa<g ref="char:EOLhyphen"/>tan, that old Serpent, crept into the hearts of <hi>Ananias</hi> and <hi>Saphirae,</hi> he filled them full of all miſchief, and brought them to deſtructi<g ref="char:EOLhyphen"/>on. <hi>Why hath Satan?</hi> That ſin cannot be ſmall that proceeds from ſuch an author: All men indeed are ſinners, the beſt that are do ſin through the proneneſs of natural corruption, but when men ſin through the motion and inſtigation of Satan, then their ſin becomes more devilliſh and haynous; now ſome men in ſin<g ref="char:EOLhyphen"/>ning do more immediatly joyn hand in hand with the devil, enter<g ref="char:EOLhyphen"/>taining his motions, and conſenting to his ſuggeſtions, they joyn with him, and he with them: They as his Vaſſals, he as their Lord; thus combining together, and uniting their ſtrengths, they become the more ſtrong, according to that, <hi>Vis unita fortior.</hi> Satan indeed, both by long experience, and by nature, is far more wicked than man, therefore when he infuſeth wickedneſs into man, and im<g ref="char:EOLhyphen"/>parteth to him that helliſh quality of his, then man committeth ſin like the devil himſelf: When he moveth, counſelleth, perſwa<g ref="char:EOLhyphen"/>deth, filleth, or poſſeſſeth any mans heart (as here he did the hearts of <hi>Ananias</hi> and <hi>Saphira</hi>) he then bringeth ſome notorious iniquity to paſs, and their ſin becomes no ſmall ſin.</p>
+            <p>Therefore above all things take we heed of devilliſh motions and ſuggeſtions; the devil is oft exceeding ſudden in his aſſaults,<note place="margin">Inference.</note> a ſpirit, and very quick; oh that we could be as quick, when he
+<pb n="4" facs="tcp:32153:5"/>ſets upon us, in flying unto God by prayer, ſaying as the Pſalmiſt, <hi>Send help (O Lord) from thy Sanctuary,</hi>
+               <note place="margin">Pſal. 20.2.70.1.</note> 
+               <hi>Lord make haſte to help me.</hi> When the devil ſeeks to throw his wild-fire into our hearts, let us preſently take to us the ſhield of faith, whereby we may quench thoſe fiery darts of his, and being ſtrong in the Lord, and in the power of his might, let us fight the good fight: When the enemy ſuggeſts any wicked thought, let us riſe up againſt it with a holy indignation, and preſently ſmite it down, ſend it as low as hell,<note place="margin">Ruth 1.16.</note> from whence it came; and as <hi>Ruth</hi> to <hi>Naomi, Intreat me not, for I am ſtedfaſtly minded to go with thee;</hi> ſo let us ſay to the adver<g ref="char:EOLhyphen"/>ſary, Away curſed fiend, thou loſeſt thy labour, never go about to perſwade me, intreat me not, for I am ſtedfaſtly reſolved with purpoſe of heart to cleave unto the Lord. Thus reſiſting we ſhall not be overcome, but ſhall even force Satan himſelf to flight, for <hi>reſiſt the devil</hi> (ſaith the Apoſtle) <hi>and he will flee from you.</hi>
+               <note place="margin">Jam. 4.7.</note>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, From the author, let us go on to the quantity and meaſure of their ſin in that word <hi>Filled.</hi>
+               <note place="margin">Filled.</note> It is ſaid in the former Chapter they were all filled with the Holy Ghoſt;<note place="margin">Acts 4.31.</note> here's now ano<g ref="char:EOLhyphen"/>ther manner of filling, they are filled with the wicked ghoſt, or ſpirit full of Satan; but how did Satan fill them is a point worthy our enquiry. Firſt, You ſee they conſent together to practice that wickedneſs which the devil put into their hearts, and herein they ſhew their great folly in this, that they had rather at laſt have part of the price wrongfully, and unlawfully, than at the firſt the whole lawfully and juſtly, and what greater folly could there be than this? But how doth Satan draw them to this folly? I anſwer, by his two Counſellors, Covetouſneſs and Vain-glory; Covetouſneſs ſaith, yet at leaſt keep ſomewhat to your ſelves: Vain-glory ſaith, nay, but give all at leaſt in ſhew. So then if to their folly we add Covetouſneſs and Vainglory we ſhall ſee the meaſure already be<g ref="char:EOLhyphen"/>ginning to fill very faſt.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Queſt. </seg>
+               </label> But with what reaſons do theſe two Counſellors perſwade the embracing of their contrary directions?</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Anſw. </seg>
+               </label> I anſwer, To urge contrary concluſions they draw their Argu<g ref="char:EOLhyphen"/>ments from contrary topicks, that is, from Deſpair and Preſumpti<g ref="char:EOLhyphen"/>on. Covetouſneſs from deſpair, that is, from want of faith, and from diſtruſt in Gods goodneſs, reaſons thus: <q>What will ye in<g ref="char:EOLhyphen"/>deed give all away, and leave nothing to your ſelves? How will ye do then when old age comes upon you, and you ſhall not be
+<pb n="5" facs="tcp:32153:5"/>able to take pains? What if you fall ſick, and keep your beds, will theſe new Deacons and Overſeers then provide for you? Or will they not rather ſleight you, and not regard you? There<g ref="char:EOLhyphen"/>fore keep ſomething in ſtore for fear of the worſt, you know not what may happen.</q>
+            </p>
+            <p>Vain-glory likewiſe from Preſumption draws her Arguments thus: <q>If you give not all, I aſſure you you ſhall want a great part of your praiſe, you ſhall be leſs eſteemed and regarded than ſuch and ſuch; <hi>Joſes</hi> the Levite ſhall be better thought of, and have more repute amongſt the Brethren, for he hath given all,<note place="margin">Acts 4.34-37.</note> wherefore if you will needs keep back part, be it ſo, yet ſeem to give all; who knows that ye do keep any thing back, make ſhew therefore of giving all, ſo ſhall you provide for your ſelves; ſeem as liberal as the beſt, yet loſe no part of your commenda<g ref="char:EOLhyphen"/>tion.</q> Theſe then are the two Counſellors Covetouſneſs and Vain-glory, the one looking at their profit, the other at their cre<g ref="char:EOLhyphen"/>dit; Vain-glory draweth on Preſumption, Covetouſneſs Deſpair: Vain-glory bears them in hand, that they ſhall be commended though they deal corruptly: And Covetouſneſs would have them think, that if they ſincerely yield to the motion of the Holy Ghoſt, and ſtrictly follow the example of the Godly, then they ſhall be like to ſtarve for want of things neceſſary.</p>
+            <p>See and obſerve from this,<note place="margin">Inference.</note> that as there is a concatenation of Vertues, ſo alſo of Vices, one ſeldom goes alone, but draws and hales on another into the heart, till it be filled therewith; there<g ref="char:EOLhyphen"/>fore ſaith the Prophet, <hi>They draw iniquity with cords of vanity,</hi>
+               <note place="margin">Iſa. 5.18.</note> 
+               <hi>and ſin as it were with a Cart-rope;</hi> hence it is, that wicked men are ſaid <hi>to add ſin to ſin,</hi> as <hi>Ananias</hi> and <hi>Saphira</hi> here did,<note place="margin">30.1.</note> they added one ſin to another, till at laſt they were filled with ſin; a whole band of the devils ſouldiers, Folly, Deſpair, Preſumption, Covetouſneſs, Vain-glory, theſe five are broke into their hearts, to which if you ſhall add two more, that is, their lying and tempting of God, you will eaſily perceive, that the unclean ſpirit which was gone out of them, at their firſt converſion to the faith of Chriſt, is now retur<g ref="char:EOLhyphen"/>ned, and finding the room ſwept and trimmed,<note place="margin">Luk. 11.26.</note> hath taken ſeven other ſpirits more wicked than himſelf, and they are entred in and dwell there, and their laſt ſtate is worſe than the firſt; you have now ſeen how Satan filled them, theſe particulars that I have na<g ref="char:EOLhyphen"/>med make up the full meaſure of their iniquity, and do ſhew, that
+<pb n="6" facs="tcp:32153:6"/>it is now come to the height, and that it is ripe, ſo that the Lord muſt needs come and thruſt in his ſickle.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> The third particular is the ſubject or ſhop of Satan, which was his heart;<note place="margin">Thy heart.</note> theſe ſins were entertained with the beſt welcome, with their mutual conſent, and into the beſt room, their hearts. The heart is the principal place and ſeat of life in the natural man, and of grace in the ſpiritual. Now theſe places that ſhould have been <hi>Sancta Sanctorum,</hi> the moſt ſacred Temples of the Holy Ghoſt, are entred upon, and prophaned by the devils gueſts; And this is a further aggravation of their ſin, for God hath ſet every man to guard and keep his heart as one would keep and defend a Caſtle, if a man deliver up this Caſtle into the enemies hands 'tis treaſon; evill thoughts are the keyes of this Caſtle, for they open the heart and let in the enemy; to think as the devil would have us think, is to deliver up the keyes of our hearts to him; the rolling up and down of evill cogitations is the turning of the key, and opening of the gates to Satan; And this is that for which <hi>Peter</hi> ſo ſharp<g ref="char:EOLhyphen"/>ly rebuked <hi>Ananias: Why hath Satan filled thy heart?</hi> That is, why haſt thou betrayed thy truſt? Why haſt thou delivered up the keys into his hands? Why haſt thou done this?</p>
+            <p>Let us learn from hence what is the cauſe of all our ſin and miſe<g ref="char:EOLhyphen"/>ry,<note place="margin">Inference <hi>1.</hi>
+               </note> even our own hearts. The Apoſtle here laies the fault upon <hi>Ana<g ref="char:EOLhyphen"/>nias,</hi> expoſtulates with him, not with Satan: He doth not ſay, Sa<g ref="char:EOLhyphen"/>tan, why haſt thou filled the heart of <hi>Ananias,</hi> but <hi>Ananias, why hath Satan filled thy heart?</hi> Why didſt thou ſuffer him to do this? And yet more plainly, <hi>v.</hi> 4. <hi>Why haſt thou conceived this wickedneſs in thy heart?</hi>
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, verſ. 4.</note> Or as it is in the Original, <hi>Why haſt thou put this wickedneſs in thy heart?</hi> The devil could never have got this wic<g ref="char:EOLhyphen"/>kedneſs into his heart if himſelf had not put it in there: If <hi>Ananias</hi> had not opened the ſack the devil could never have fill'd it; He could never enter, and come into our hearts, did not we open the door to him; therefore ſaith the Apoſtle, <hi>Every man is tempted when he is drawn away of his own luſt,</hi>
+               <note place="margin">Jam. 1.14, 15.</note> 
+               <hi>and enticed, then when luſt hath conceived it bringeth forth ſin.</hi> The devil indeed filled the heart or <hi>Ananias,</hi> but it was not till <hi>Ananias</hi> had conceived this wic<g ref="char:EOLhyphen"/>kedneſs in his heart, or had put it in his heart, that is, he gave it conception, and then the devill nouriſht and augmented it till it came to the birth.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, That ſins of the heart are great ſins, and ſuch as we
+<pb n="7" facs="tcp:32153:6"/>ſhould moſt ſtrive againſt: For the Apoſtle here ſtrikes at the root of this miſchief, the heart. <hi>Why hath Satan filled thy heart?</hi> And <hi>why haſt thou conceived this wickedneſs in thy heart?</hi> Making it, as it were, the engineer and framer of all this miſchief: Such was his dealing with <hi>Simon Magus, Pray God,</hi>
+               <note place="margin">
+                  <hi>Act,</hi> 8 22.</note> 
+               <hi>if perhaps the thoughts of thy heart may be forgiven thee.</hi> Thus the Prophet,<note place="margin">Jer. 4.14.</note> 
+               <hi>Waſh thy heart from wickedneſs that thou mayſt be ſaved.</hi> It was ordered by a Law called <hi>the Law of the twelve Tables,</hi>
+               <note place="margin">Fontinus.</note> that all ſprings and fountains ſhould be kept from filthineſs and pollution, leſt theſe being corrupted ſhould fill the Land with infection: So here the heart is the fountain; <hi>there<g ref="char:EOLhyphen"/>fore</hi> (ſaith <hi>Solomon</hi>) <hi>above all keepings keep thy heart,</hi>
+               <note place="margin">Prov. 4.2<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> 
+               <hi>for out of it are the iſſues of life;</hi> If thou wouldſt have any ſin mortified, kill it in thy heart; if any grace entertained, plant it in thy heart. <hi>A good man</hi> (ſaith our Saviour) <hi>out of the good treaſure of his heart bringeth forth that which is good;</hi>
+               <note place="margin">Mat. 12.35.</note> where the word <hi>(Good)</hi> is thrice repea<g ref="char:EOLhyphen"/>ted; but mark the order, firſt, a good treaſure, then a good man, then good fruits: The treaſure of the heart being good makes all good, gives the owner of this treaſure his denomination, makes him a good man, yea, his ſpeeches, actions, theſe fruits that come from him they are good alſo, the heart being good. It is the good<g ref="char:EOLhyphen"/>neſs of the man ſanctifieth all outward things, but it is the good<g ref="char:EOLhyphen"/>neſs of the heart that ſanctifieth the man.</p>
+            <p>To return to my Text.</p>
+            <p>This ſin of <hi>Ananias</hi> as you have ſeen it ſet forth by the Author, Quantity, Subject; ſo in the fourth place, it is lively deciphered by the matter of it, and this will put us upon a narrower ſearch <milestone type="tcpmilestone" unit="unspecified" n="4"/> concerning the nature of this ſin,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> and the natures of things are commonly known by their names: Now this ſin of theirs hath three names in this Chapter, for firſt it is called a counterfeiting of the Holy Ghoſt; Secondly, Lying to the Holy Ghoſt in my <milestone type="tcpmilestone" unit="unspecified" n="1"/> Text; Thirdly, Tempting of the Holy Ghoſt,<note place="margin">Counterfeit<g ref="char:EOLunhyphen"/>ing of the Ho<g ref="char:EOLhyphen"/>ly Ghoſt.</note> 
+               <hi>v.</hi> 9. I will endea<g ref="char:EOLhyphen"/>vour to open them all in order.</p>
+            <p>Firſt, There was a Counterfeiting of the Holy Ghoſt: It is ſaid of <hi>Achan,</hi> that he took and ſtole the accurſed thing,<note place="margin">Joſh. 7.11.</note> and diſſem<g ref="char:EOLhyphen"/>bled alſo.<note place="margin">Vid. Cajetan in loc. p. <hi>13.</hi>
+               </note> 
+               <hi>Joſhua</hi> ſent Officers into the Army to charge every man to keep the decree of Almighty God, in not taking the accurſed thing, and when all the people anſwered that they had kept the decree, <hi>Achan</hi> ſaid ſo too; thus he ſtole the accurſed thing, and diſſembled alſo, faining himſelf as innocent as any in the com<g ref="char:EOLhyphen"/>pany.
+<pb n="8" facs="tcp:32153:7"/>Juſt ſo dealt this ſacrilegious couple, they ſtole part of the Price, and diſſembled alſo; they would ſeem to do as others did, and be thought as devout as any of them, here was a counterfeiting of the Holy Ghoſt, that is, of the grace of the Holy Ghoſt; a fain<g ref="char:EOLhyphen"/>ing, and making ſhew of that ſincere grace which was not in them, in that they would ſeem to give the whole, when they gave but part only, here was their hypocriſie, for this is the guiſe of hy<g ref="char:EOLhyphen"/>pocrites, if they can caſt a miſt before your eyes, and walk inviſible, if they can carry it away cleanly, and be reputed juſt and holy, they care for no more: They are like ſome Taverns, having before them the ſign of the Angel, but within nothing but beaſtly drun<g ref="char:EOLhyphen"/>kenneſs: or as Chriſt ſaith, <hi>like whited ſepulchres, which indeed appear beautiful outward,</hi>
+               <note place="margin">Mat. 23.27.</note> 
+               <hi>but within are full of dead mens bones, and all un<g ref="char:EOLhyphen"/>cleanneſs:</hi> Fair without, but foul within; outwardly, they appear righteous unto men, but within they are full of hypocriſie and ini<g ref="char:EOLhyphen"/>quity. Many examples of ſuch are recorded in Scripture, as of <hi>Saul,</hi> who ſaid that he had done the Commandment of the Lord,<note place="margin">1 Sam. 15.</note> when he had done quite contrary;<note place="margin">9 — 13.</note> and <hi>Gehazi,</hi> when he had been run<g ref="char:EOLhyphen"/>ning after <hi>Naaman</hi> the <hi>Syrian</hi> for a bribe,<note place="margin">2 King. 5.25.</note> came and ſtood in a demure poſture before his Maſter <hi>Eliſha,</hi> ſaying, <hi>Thy ſervant went no whither.</hi> So <hi>Herod</hi> ſpake thus to the <hi>Magi, Bring me word when ye have found him,</hi>
+               <note place="margin">Mat. 2.8.</note> 
+               <hi>that I may come, and worſhip him alſo,</hi> when he meant to murther him. As to cover and conceale a fault (in the preſence of God eſpecially, who knoweth all things) is diſſimu<g ref="char:EOLhyphen"/>lation: So to ſet forth a colour and ſhew of vertue and goodneſs there where it is not, is Simulation and Counterfeiting, and both this and that is hypocriſie, and both to be ſeen in <hi>Ananias</hi> and <hi>Sa<g ref="char:EOLhyphen"/>phira,</hi> for they kept ſecret their thievery, and make a ſhew of their liberality; they give their heart to Satan, and their face to God; they counterfeit the Holy Ghoſt, being limbs of the devil; they feigned that they had that ſpecial and excellent grace of God in their hearts which was then in the Church, even the Communion of Saints in a rare and extraordinary manner, when indeed they had Communion and Fellowſhip with Satan, and he it was that had filled their hearts with devilliſh qualities.</p>
+            <p>Let it therefore teach us to take heed of this;<note place="margin">Inference.</note> Hypocriſie is ſuch a ſin, that it makes him that in ſhew is an Angel of light,<note place="margin">Joh. 6.70.</note> to be indeed a Fiend of darkneſs. <hi>Judas</hi> one of the twelve Diſciples of Chriſt, and Doctors of the World, is
+<pb n="9" facs="tcp:32153:7"/>called a devil, and therefore a devil becauſe when he betrayed his Maſter he did it with a Kiſs; that execrable venome of Treaſon was blandiſht over with a ſoft and gentle, but hypocritical Kiſs, <hi>He came to Jeſus, and ſaid, hail Maſter, and kiſſed him.</hi>
+               <note place="margin">Mat. 26.49.</note> I end this with that excellent ſaying of <hi>Chryſoſtome:</hi> 
+               <q>O hypocrite, if it be good to be good, why wilt thou not be that which thou wilt ſeem to be? And if it be evil to be evil, why wilt thou be that which thou wilt not ſeem to be? If it be good to ſeem to be good, it is better to be ſo; And if it be evil to ſeem to be evil, it is worſe to be ſo; therefore either ſeem as thou art, or be as thou ſeemeſt to be.</q>
+            </p>
+            <p>Secondly, It is called Lying to the Holy Ghoſt in this <hi>verſe,</hi> 
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> and Lying to God, <hi>v.</hi> 4. that is, he lyed to the Holy Ghoſt being God. Lying is ſo linckt to Hypocriſie,<note place="margin">Lying to the Holy Ghoſt.</note> that it ſerves the ſame as an officious handmaid. Now this lye of theirs was very cunningly contrived. <hi>The proud</hi> (ſaith <hi>David</hi>) <hi>have imagined a lye againſt me;</hi>
+               <note place="margin">Pſal. 119 69.</note> Or it might be read thus: They have trimmed their lyes,<note place="margin">Concinnave<g ref="char:EOLhyphen"/>runt mendacia.</note> dreſt and trimed them under the ſhadow and colour of truth: So this lye of <hi>Ananias</hi> was very artificially trimmed up.<note place="margin">Jun. vatabl.</note> Many things come here to be conſidered about it.</p>
+            <p n="1">1. We find that it was a real lye, not uttered in words, but ex<g ref="char:EOLhyphen"/>hibited <milestone type="tcpmilestone" unit="unspecified" n="1"/> in their deeds, while their outward and apparent deeds did much differ from a ſecret and concealed action: <hi>Ananias</hi> in words did not utter an untruth, but his deeds did; he did not ſay, that he did not keep back part; but his deeds made ſhew of giving all, therefore that deed of his was a lye for another ſecret deed, namely, keeping back part did contradict the ſame. There are real lyes then as well as verbal, ſuch was this of <hi>Ananias.</hi> That is the firſt.</p>
+            <p n="2">2. This Lye of theirs it was a concealing of the truth, and truth <milestone type="tcpmilestone" unit="unspecified" n="2"/> ſometimes may without ſin be concealed; A man is not bound to ſpeak all the truth at all times, yet it doth appear from this pre<g ref="char:EOLhyphen"/>ſent example, that to conceale a truth, and not to tell it plainly, when the glory of God is concerned in it, and when it is expedient and profitable for men to know, the ſame is a lye, the making of a lye, though not the telling of a lye; therefore in bying or ſelling, or in any other matter wherein a mans ſilence or concealing the truth may hurt his brother, there his ſilence is a ſin, and his con<g ref="char:EOLhyphen"/>cealing the truth a lye. I know what many will object: If this
+<pb n="10" facs="tcp:32153:8"/>be ſo, we may go ſhut up our ſhops, for ſhould we tell the fault of our goods, we ſhould hinder our ſelves in the ſale. But is it not better to hinder thy ſelf in thy goods, than to offend thy God; nakedly and plainly to declare the goodneſs or badneſs of thy Commodities, than by taking advantage of the buyers ignorance to have <hi>ſingultum cordis,</hi>
+               <note place="margin">1 Sam. 25.31.</note> that is, a throbbing heart, an accuſing conſcience. This ſin the of <hi>Ananias</hi> it was a lye, it was a real lye, and it was a lye in the point of concealment, becauſe they concealed the truth.</p>
+            <p n="3">
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3. Further, It is ſaid to be a lye made to God, becauſe it was ſecret, ſo that none but God could find it out; it was cunningly contrived in his deeds, therefore very ſecret and hidden, yet God findeth it out. He who is the Author of all truth hath ſaid it, that there is nothing ſo ſecret but it ſhall be revealed; it is not poſſible for man to conceal his untruth and iniquity from God: <hi>He that made the eye, ſhall not he ſee? He that made the heart, ſhall not he un<g ref="char:EOLhyphen"/>derſtand?</hi>
+               <note place="margin">Pſal. 94.9.</note> Surely he ſees, and knows all the Mazes and <hi>Meanders;</hi> all the windings and turnings of our vain hearts.</p>
+            <p>Let this therefore teach us to hate and deteſt this ſin of Lying. <hi>Theſe are the things wich ye ſhall do,</hi>
+               <note place="margin">Inference.</note> 
+               <hi>ſpeak ye every man the truth to his neighbour,</hi>
+               <note place="margin">Zac 8.16, 17.</note> 
+               <hi>execute the judgement of truth and peace in your gates; Let none of you imagine evill in your hearts againſt his neighbour, and love no falſe oath; for all theſe are things that I hate ſaith the Lord.</hi> In like manner the Apoſtle, <hi>Laying aſide Lying, ſpeak ye the truth every man to his neighbour,</hi>
+               <note place="margin">Epheſ. 4.25.</note> 
+               <hi>for ye are members one of another:</hi> So deal therefore one with another as one member of the body would deal with the reſt. Conſider what hath been ſaid againſt this ſin, That every lye is againſt the God of truth, and he will find it out; that it was the ſin of theſe two notable hypocrites, and a ſin that muſt help them out in their hypocriſie; they could never have made the World think ſo well of them if the lye had not come in to help them. Further, Lying is the devils badge, a mark of his diſciples,<note place="margin">Joh. 8.44.</note> who himſelf is the father of lies. It is joyned and coupled together by the Prophet <hi>Hoſea</hi> with four other capital ſins,<note place="margin">Hoſ. 4.2.</note> Swearing, Murther, Theft, Adultery. Surely they that hide themſelves under falſhood and deceit,<note place="margin">Iſa. 28.15.</note> and make lyes their refuge, will in the end be found to be but under a bad ſhelter; <hi>For</hi> (ſaith <hi>David) the Lord who loveth truth and righteouſneſs,</hi>
+               <note place="margin">Pſal. 45.7.</note> 
+               <hi>and hateth ini<g ref="char:EOLhyphen"/>quity,</hi>
+               <note place="margin">Pſal. 5 6.</note> 
+               <hi>he will deſtroy them that ſpeak lies;</hi> and how will he deſtroy
+<pb n="11" facs="tcp:32153:8"/>them? St. <hi>John</hi> faith it ſhall be with an everlaſting deſtruction,<note place="margin">Rev. 21.8.22.15.</note> he will ſhut them out of the heavenly <hi>Hieruſalem.</hi> Let every one of us therefore labour for truth in our ſpeeches, and for truth in our actions, ever ſaying with <hi>David, Lord,</hi>
+               <note place="margin">Pſal. 119.29.</note> 
+               <hi>remove from me the way of Lying.</hi>
+            </p>
+            <p>Thirdly, You have ſeen what was the ſecond ingredient, the <milestone type="tcpmilestone" unit="unspecified" n="3"/> ſin of lying, they counterfeited the Holy Ghoſt,<note place="margin">Tempting of the Holy Ghoſt.</note> and they lyed to the Holy Ghoſt; In the ninth <hi>verſe</hi> it is called a Tempting of God. <hi>How is it that ye have agreed together to tempt the Spirit of the Lord?</hi> This then is to be taken in as a third branch of their ſin, and a devilliſh ſin it is,<note place="margin">Mat. 4 6.</note> becauſe when the devil tempted Chriſt in the Wilderneſs he tempted him to tempt God, ſaying, <hi>Caſt thy ſelf down headlong.</hi> This ſin left the remembrance of it in giving a name to a place, where the people of <hi>Iſrael</hi> tempted God at <hi>Rephidim,</hi> for it is not only called <hi>Me<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ibah</hi> of their contending and ſtriving againſt <hi>Moſes,</hi> but alſo <hi>Maſſah</hi> of their tempting of God; therefore <hi>Moſes</hi> doth admoniſh them, that they ſhould not tempt God as they tempted him at <hi>Maſſah,</hi> ſaying,<note place="margin">Deut. 6.16.</note> 
+               <hi>Is the Lord amongſt us, or not.</hi>
+               <note place="margin">Exod. 17 7.</note> The Pſalmiſt alſo teſtifieth that they tempted him in the Wilderneſs, and required meat for their luſt, ſaying, <hi>Behold, he ſmote the Rock that the waters guſhed out,</hi>
+               <note place="margin">Pſal. 78.20.</note> 
+               <hi>and the ſtreams overflowed, can he give bread alſo? Can he provide fleſh for his people?</hi> As if it were not as eaſie for God to give bread as well as water, but they would needs tempt him, and try what he could do: So here <hi>Ananias</hi> and <hi>Saphira</hi> are ſaid to tempt the Spirit of the Lord, becauſe they meant to try concluſions, and prove whether or no the Holy Ghoſt could eſpy and find out their jugling, and whether he could puniſh it being found out.</p>
+            <p>This then being ſo great a ſin to tempt God, let us take the more heed of it; let us take heed of preſuming upon the mercy of God; let us not venture to commit any ſin, entertaining ſuch a thought as this into our hearts, Why? What if we do? God is not able, or he is not willing to puniſh us. Do we provoke the Lord to anger, are we ſtronger than he?<note place="margin">2 Cor. 20.22.</note> Oh let us do nothing with an evill conſcience, nor againſt the knowledge of a good con<g ref="char:EOLhyphen"/>ſcience, praying ſtill with <hi>David, Lord keep thy ſervants from pre<g ref="char:EOLhyphen"/>ſumptuous ſins,</hi>
+               <note place="margin">Pſal. 19.13.</note> 
+               <hi>and let them not have dominion over us.</hi>
+            </p>
+            <p>Their ſin then, for the nature of it, was like <hi>Cerberus,</hi> a beaſt, as the Poets feign, having three heads; or like a poyſon mixt, and
+<pb n="12" facs="tcp:32153:9"/>made up of three ingredients, Hypocriſie, Lying, and Tempting of God.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="5"/> I have done with the fourth particular, the matter of their ſin, and proceed to the fifth and laſt,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Keeping back part of the price of the Land.</note> which is the <hi>Quomodo</hi> or man<g ref="char:EOLhyphen"/>ner of it; they made a lye to God, they tempted God, but how? Saint <hi>Luke</hi> ſaith, it was by turning aſide part of the price of the Land; here was to uſe the School term <hi>Formale,</hi> the very forma<g ref="char:EOLhyphen"/>lity of it. The devil that old Serpent had compounded and in<g ref="char:EOLhyphen"/>fuſed a new poyſon into their hearts, conſiſting of three ingredi<g ref="char:EOLhyphen"/>ents, they were the matter of their ſin; now the manner of acting, and working, and what operation this poyſon had, appears by their actions too open and known, the firſt, and the third, ſelling of their Land, and bringing part of the price to the Apoſtles feet; but the ſecond was ſecret and unknown, <hi>viz.</hi> keeping back part of the price.</p>
+            <p>They began no doubt by the motion of the Holy Ghoſt to ſell their poſſeſſion, and in ſelling of it aimed at a good and holy end, that it might be diſtributed to the ſeveral neceſſities of the Church, therefore they bring it, and lay it at the Apoſtles feet: A good beginning, and a good end intended; but Satan creeps in between them, ſets his foot in the midſt, and mars all; like the envious thief in the Goſpel, he ſows tares amongſt the good ſeed; yea, ſo far he bewitcheth them, that they preſume through their hypocriſie to beguile and deceive the Holy Ghoſt, in concealing part of the price. Their ſin then was a ſecret and voluntary withholding and keeping back ſome part of that which they began to give openly; and in concluſion a ſhew of performing the whole, when indeed they did but perform only ſome part. They gave all to God, they ſtole ſome of it again, and would have the reſt to ſtand for the whole. Their own being given to God was no longer their own, but Gods, therefore their ſecret keeping back part was Sacriledge, that is, ſtealing of a holy and conſecra<g ref="char:EOLhyphen"/>ted thing. Now this was a ſly kind of Sacriledge, and hard to be exemplified out of Gods Word, and it ſeems but a ſmall matter for them to take ſome of that which ſo lately was their own; yet ſeeing they were led to it by the inſtigation of Satan, he was the Parent, and that in travelling to bring it forth, they grew very big, being full of Diſtruſt, Preſumption, Covetouſneſs, Vainglory, and having brought it forth, it appears in the light to be a monſtrous
+<pb n="13" facs="tcp:32153:9"/>birth, a hell-hound with three heads, Hypocriſie, Lying, and Tempting of God, (as you have already heard.) And laſtly, ſeeing (as the Story ſhews) it was puniſht with a ſudden and fearful death as it were, the ireful breath of the Holy Ghoſt, blaſting and ſmiting them both to death by the mouth of the Apoſtle; there<g ref="char:EOLhyphen"/>fore it is apparent from hence, that this their Sacriledge, ſuppoſe the loweſt degree of Sacriledge, this their ſtealing of part of their own gifts from God, was a moſt fearful, and grievous ſin. And from hence I propound theſe Queries following:
+<list>
+                  <item>I. If to take it away Secretly were ſuch a ſin, what is it to do it Openly?</item>
+                  <item>II. If to take away Part, what is it to take away All?</item>
+                  <item>III. If to take away a mans Own gift were ſo great a ſin, what is it then to take away Another mans gift?</item>
+               </list>
+            </p>
+            <p>But theſe things require a fuller debate, therefore let us conſi<g ref="char:EOLhyphen"/>der of them ſeverally.</p>
+            <p>I ſay therefore, Firſt, If to ſteal Secretly that which hath been <milestone type="tcpmilestone" unit="unspecified" n="1"/> given and Dedicated to God were ſuch a ſin, what is it to do it Openly? Doth not this argue greater contempt of God, greater boldneſs in ſinning, and conſequently greater diſobedience? Therefore as it is an aggravation of the drunkenneſs of our times, that whereas this ſin was heretofore committed in the night,<note place="margin">1 Theſ. 5.7.</note> it is now committed in the light, and is become, as it were,<note place="margin">Pſal. 91.6.</note> a noon<g ref="char:EOLhyphen"/>day devil: So it is not likewiſe an aggravation of the Sacriledge of our daies, that whereas <hi>Ananias</hi> and <hi>Saphira</hi> hid their ſin,<note place="margin">Job 31.33.</note> as <hi>Adam,</hi> and kept it cloſe, many do now on the contrary,<note place="margin">Iſa. 3.9.</note> ſhew and declare their ſin, as <hi>Sodom,</hi> they hide it not. We ſay, he is a bold Thief that will ſteal when men look on: Are they not then bold Thieves that will rob God of the means of his Worſhip, though all the World look on. That is the firſt.</p>
+            <p>The ſecond Quere is this, If it be ſo great a ſin to keep back Part <milestone type="tcpmilestone" unit="unspecified" n="2"/> a mans gift, what is it then to take away the Whole? He that takes away all, and leaves nothing behind him, he is a bold thief indeed: Even ſo againſt God, Is not he a bold and graceleſs thief, who when he hath opened his mouth to God ſhrinks back, and will performe nothing of that he hath promiſed? When men will give to God, and when they have ſo done, take it away again, when Covetouſneſs comes in and parlies with them, (as here it did with <hi>Ananias</hi>) ſo a revocation is made of their gifts:
+<pb n="14" facs="tcp:32153:10"/>This queſtionleſs cannot be without ſin; for in matters of God we are not to deliberate,<note place="margin">In <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e ſancta deliberatio non habet locum.</note> that is, not to reaſon with fleſh and bloud, but to do as we have promiſed: <hi>When thou vowest a Vow unto the Lord thy God,</hi>
+               <note place="margin">Cypr.</note> 
+               <hi>thou ſhalt not be ſlack to pay it, for the Lord thy God will ſurely require it of thee,</hi>
+               <note place="margin">Deut. 23.21.</note> 
+               <hi>and ſo it ſhould be ſin unto thee,</hi> ſaith <hi>Moſes;</hi>
+               <note place="margin">Job. 2.27.</note> So holy <hi>Job, Thou ſhalt make thy prayer to him, and he ſhall hear thee, and thou ſhalt render him thy Vows;</hi> To this purpoſe like<g ref="char:EOLhyphen"/>wiſe is that of <hi>Solomon,</hi>
+               <note place="margin">Eccleſ. 5.4.</note> 
+               <hi>When thou voweſt a Vow unto God, defer not to pay it, for he hath no pleaſure in fools, pay that which thou haſt vowed.</hi> Indeed unlawful Vows ought not to bind mens conſciences, nei<g ref="char:EOLhyphen"/>ther are they to be kept, but rather to be broken by thoſe that made them, becauſe ſin is not to be added to ſin; but on the other ſide, take away and exclude ſuperſtition, wickedneſs, impoſſibility, then Vowes are lawful, they bind the conſcience, and ought to be per<g ref="char:EOLhyphen"/>formed. When therefore a thing is once not only determined be<g ref="char:EOLhyphen"/>tween God and a mans conſcience, but alſo publikely conſecrated, and ſo notified before men, then it is no longer his that gave it, but it is Gods; It is not common, but holy, that is, ſet aſide to a holy end. It is the gift of the Holy Ghoſt, becauſe God is both the Au<g ref="char:EOLhyphen"/>thor and end thereof; for although the thing given be temporal and tranſitory, yet the manner of giving being ſpiritual and holy, the gift is the gift of the Holy Ghoſt, for God the Holy Ghoſt doth effectually move a mans mind to give it, and God the Lord Jeſus Chriſt doth cheerfully receive it in his Members for the mu<g ref="char:EOLhyphen"/>tual cheriſhing and exerciſing of Gods gifts and graces amongſt them, to the honour and glory of God the Father; wherefore what man ſoever, though the<note n="*" place="margin">
+                  <p>
+                     <hi>The ſtile of all ancient Deeds and Grants ſhews this, <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>unning in this form:</hi> We have given unto God both for our ſelves, and for our heirs for ever. <hi>Magna Charta cap 1.</hi>
+                  </p>
+                  <p>
+                     <hi>When</hi> Ethelbert <hi>endowed the Church of</hi> Pancrace <hi>with Land, he did it with an irrevoca<g ref="char:EOLhyphen"/>ble Act:</hi> Adjuro, &amp; praecipio in nomine Domini Dei omnipotentis, qui est omnium juſtus judex, ut praefata terra ſubſcripta donatione ſempeternaliter ſit confirmata, ita ut nec mihi, nec alicui ſucceſſorum meorum de ea aliquid fraudare liceat. <hi>Spelm, Concil. Britan. p. 119.</hi>
+                  </p>
+                  <p>Siquis rem domino jam devotam carnali victus illecebra crediderit denuo repoſcendam, non eſt legitimus ejus rei poſſeſſor, ſed divini juris pronunciatur invaſor. <hi>Fulgent. Epiſt. 1. de debit. Conjug.</hi>
+                  </p>
+               </note> Giver of the gift, ſhall either openly take away, or ſecretly purloyn the ſame, he commits Sacriledge, and ſtealeth from God, and not from men.</p>
+            <pb n="15" facs="tcp:32153:10"/>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Object. </seg>
+               </label> But a man will ſay, May I not do what I will with mine own?</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Anſw. </seg>
+               </label> I anſwer again, It is not a mans own, if he have vowed, and promiſed it, but it is Gods. <hi>Was it not in thine own power,</hi> ſaith <hi>Pe<g ref="char:EOLhyphen"/>ter</hi> here to <hi>Ananias?</hi> True (as if he had ſaid) it was, but being ſince conſecrated, and given unto God, thou art now found to be a lyar and a thief in keeping it from him: Let all men there<g ref="char:EOLhyphen"/>fore take heed of dealing thus with their God; I am perſwa<g ref="char:EOLhyphen"/>ded that this dallying with Almighty God, this playing faſt and looſe with His Majeſty, is that which eats Religion out of the hearts of many rich men, and quenches the Spirit of God in them: Why ſhould any man be ſo ſimple as to begin in the Spirit, and end in the Fleſh? Begin with God, (as <hi>Ananias</hi> here did) and end with the devil?<note place="margin">Gal. 6.7.</note> 
+               <hi>Be not deceived</hi> (ſaith the Apoſtle) <hi>God is not mocked.</hi> This is a ſecond thing offered to our conſideration, If to take and keep back part were ſuch a ſin, what is it then to keep back the whole?</p>
+            <p>To proceed yet one ſtep further in this climax or gradation:<milestone type="tcpmilestone" unit="unspecified" n="3"/> Thirdly, if it be ſo great a wickedneſs to keep back a mans own gift in part, or in whole, what is it then to take away another mans gift? Which never was his own that taketh it away, neither ever had he any right or title to it, but only by force or fraud hath wrung it to himſelf; and are there not many great thieves alſo of mony, ſeek to repair their decayed Eſtates with the ruines of they care not what, or of whom: That which they moſt deſire to get into their hand is the means of the Church, which our pious An<g ref="char:EOLhyphen"/>ceſtors have given and devoted unto God, and that under a ſolemn Curſe to fall upon him or them that ſhould alienate the ſame: That which is the ſweeteſt morſel in their mouths, and goes down moſt pleaſantly is the gobbet ſtoln from the Altar: I had rather expreſs the language and carriage of theſe men in the words of judicious <hi>Hooker</hi> than in mine own: <q>The devil (ſaith he) by certain ſtrong inchantments hath ſo deeply bewitched Religion it ſelf, as to make it in the end an earneſt ſollicitor, and an eloquent perſwa<g ref="char:EOLhyphen"/>der of Sacriledge, urging confidently, that the very beſt ſervice which men of power can do to Chriſt, is without any more ce<g ref="char:EOLhyphen"/>remony to ſweep all, and to leave the Church as bare as in the day it was firſt born; that fulneſs of bread having made the
+<pb n="16" facs="tcp:32153:11"/>children of the houſhold wanton,<note place="margin">
+                     <hi>Hooker</hi> Ecceſ. pol. l. b. 5. p. 432.</note> it is without any ſcruple to be taken away from them and thrown to dogs; that they which laid the prices of their Lands as offerings at the Apoſtles feet, did but ſow the ſeeds of ſuperſtition; that they which indowed Churches with, Lands poyſoned Religion; that Tythes and Ob<g ref="char:EOLhyphen"/>lations are now in the ſight of God as the ſacrificed bloud of Goats; that if we give him our hearts and affections, our goods are better beſtowed otherwiſe, <hi>&amp;c.</hi>
+               </q> Covetous men have ever ſomething to ſay for themſelves, ſo theſe you ſee they want no words, deſire of gain makes them very witty. But turn we our ears from them to God, and hear what he ſaith: They that wrong <hi>Levi</hi> in his ſubſtance God ſhall ſmite through the Loyns of ſuch,<note place="margin">Deut. 33.11.</note> ſaith <hi>Moſes.</hi>
+               <note place="margin">Mal. 3 8.</note> 
+               <hi>Will a man rob God? Ye have robbed me in tythes and offe<g ref="char:EOLhyphen"/>rings, therefore are ye curſed with a curſe,</hi> cries the Prophet <hi>Malachi; Thoſe that ſay, Come let us take to our ſelves the houſes of God in poſ<g ref="char:EOLhyphen"/>ſeſſion; O my God, make them like a wheel, ſtill running about as if they were mad. As the fire burneth the wood: and as the flame ſetteth the mountains on fire;</hi>
+               <note place="margin">Pſa. 83.13, 14.</note> 
+               <hi>So perſecute them with thy tempeſt, and make them afraid with thy ſtorm;</hi> So <hi>David.</hi> Thus the Penmen of Holy Writ ſharpen their Stile, denouncing heavier judgments againſt ſacrilegious perſons; This is therefore the third and laſt Queſtion: If <hi>Ananias</hi> might not keep back part of that which was his own, but it coſt him his life, How then dare men take away from the Church, that which never was their own, and not think themſelves ſubject to the wrath of Almighty God?</p>
+            <p>Having thus laid open the ſeveral parts of this Text, and ſhewed the nature of this ſin of <hi>Ananias</hi> and <hi>Saphira,</hi> let me deſire thee (Chriſtian Reader) to fix thy ſerious thoughts and meditations up<g ref="char:EOLhyphen"/>on this general Concluſion, very clearly ariſing from the premiſes: That there are many who call Chriſt Maſter, yet are the Worlds ſervants. Or, That it is poſſible for a man to go far in the way to heaven, yet be at length overtaken with a whoriſh love of this World, for thus was it with <hi>Ananias</hi> and <hi>Saphira.</hi> Who would ever have thought, that Saint <hi>Luke,</hi> writing ſo many things in their praiſe in the former Chapter, ſhould here come in with ſuch a tragical relation: There they received the Word, here give ear to Satan; There they prayed, here hold parley with the devil; There with joyful hearts they praiſe God, here they tempt him; There you read of their charity, now you have ſeen their hypocriſie;
+<pb n="17" facs="tcp:32153:11"/>There they joyned themſelves with the Apoſtles,<note place="margin">1 Tim. 6.10.</note> here for detai<g ref="char:EOLhyphen"/>ning the price of their Land were caſt out of the bleſſed ſocie<g ref="char:EOLhyphen"/>ty and fellowſhip of the Apoſtles:<note place="margin">Summos ſaepe viros tranſver<g ref="char:EOLhyphen"/>ſes egit av<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ri<g ref="char:EOLhyphen"/>tia. <hi>Saluſt.</hi> Hominum men<g ref="char:EOLhyphen"/>tibus eſt inſper<g ref="char:EOLhyphen"/>ſa cupiditas, &amp; corum qui in pie<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ate conſ<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>u<g ref="char:EOLhyphen"/>ti vid<gap reason="illegible" resp="#UOM" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>u<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, <hi>Chryſto<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap> 5. p. 204.</hi>
+               </note> Well doth Saint <hi>Paul</hi> ſay, that the <hi>love of money is the root of all evil;</hi> It is the root of Apo<g ref="char:EOLhyphen"/>ſtacy, and falling from God. This ſin creeps into the heart w<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>en other ſins go out; and this is the ſin of many Profeſſors, men of eminent parts, who for Piety and Religion ſeem to be ſet in a higher rank and form than other men. <hi>Curtius</hi> writing the Life of <hi>Alexander,</hi> praiſeth him for many things, as Wiſdom, Valour, In<g ref="char:EOLhyphen"/>duſtry, reports him very hardy, a man that when froſt and ſnow lay upon the ground, would climb up the Alps on his bare hands and feet; then he gives a ſudden diſh with his Pen:<note place="margin">Caeteruming en<g ref="char:EOLhyphen"/>tia animi bo<g ref="char:EOLhyphen"/>na, <hi>&amp;c.</hi> hand tolerabili vini cupidita of aeda<g ref="char:EOLhyphen"/>vi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. <hi>Q Curt. p. 158.</hi>
+               </note> But he was into<g ref="char:EOLhyphen"/>lerably given to the love of Wine, and would be drunk, and that was a blemiſh to all his other Virtues: The like may be ſaid of many Profeſſors, that make a glorious ſhew, hear much, read much, do many excellent things; But their hearts are overcharged with the love of earthly things, and that deprives them of ſalvation, for that<note n="*" place="margin">Plaagere cos praecipit, non propter homici<g ref="char:EOLhyphen"/>dia, non propter fornicationes, aut alia poſtre<g ref="char:EOLhyphen"/>mo vitia letha<g ref="char:EOLhyphen"/>li gladio animos &amp; parenns occi<g ref="char:EOLhyphen"/>ſione jugulan<g ref="char:EOLhyphen"/>tia: ſed prop<g ref="char:EOLhyphen"/>ter ſolas tan<g ref="char:EOLhyphen"/>tummodo opes; propter inſanam cupiditatem, propter auri, at<g ref="char:EOLhyphen"/>que argenti fa<g ref="char:EOLhyphen"/>mem. ut oſtende<g ref="char:EOLhyphen"/>ret ſcilicet ſuf<g ref="char:EOLhyphen"/>ficere hae<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> homini ad aeternam d<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m<g ref="char:EOLhyphen"/>natio<gap reason="illegible" resp="#UOM" extent="3+ letters">
+                     <desc>•••…</desc>
+                  </gap>, <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ri<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>atus olii <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſ<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſsent <hi>Sal</hi> p <hi>357.</hi>
+               </note> alone may do it as well as murther or adultery. The hea<g ref="char:EOLhyphen"/>rers, reſembled to thorny ground, went they not further than the reſt? Did they not hear the Word? Did they not beleeve it? Did they not receive it with joy? Yet after all this were choaked with cares and riches. The young man in the Goſpel, did he not leave Chriſt becauſe he would not leave his poſſeſſions. and <hi>Ananias</hi> here becauſe he would not let go the price of his Land? <hi>Judas</hi> alſo, and <hi>Demas</hi> they both ſuffered ſhipwrack upon the ſame rock. When <hi>Naomi</hi> went out of <hi>Moab</hi> with her two daughters, <hi>Ruth</hi> and <hi>Or<g ref="char:EOLhyphen"/>pah,</hi> towards the Land of <hi>Judah, Ruth</hi> ſtuck to her, and would by no means forſake her: <hi>Orpah,</hi> ſhe alſo went a good way with her, wept, and took on, but at length ſhe kiſt her mother and departed; She returned to idolatrous <hi>Moab</hi> to her People, and to her Gods (ſaith the Text:) So a hypocrite may make a fair progreſs in the way to heaven, read, pray, converſe with the Saints, weep it may be at a Sermon, yet for all this be deeply in love with the World, and have his heart there amongſt his Gods of Silver and Gold: And theſe, O ye men of might, have been the Gods many of you have been fighting for ſo long;<note place="margin">Luk. 8 14. Mat. 19.22. 2 Tim 4.10. Ruth. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.15. Pſal 7<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.5. Mat. 21 38.</note> that which you have chief<g ref="char:EOLhyphen"/>ly ſought hath been to ſeize upon the inheritance, and to get into your hands the price of the Land; Who ſee<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h not at this day a great meaſure of <hi>Ananias</hi>'s hypocritical covetouſneſs, and covetous
+<pb n="18" facs="tcp:32153:12"/>hypocriſie to have been reigning in your hearts: Seeming Saints you have been, and ſervants of God, but the World hath been your Maſter: You have uſed Religion but as a ladder to climb up to wealth and worldly preferment, which being had, the ladder hath been thrown aſide, no matter what became of it: Saint <hi>John</hi> ſaith,<note place="margin">1 Joh. 5.4.</note> 
+               <hi>This is the victory that overcometh the World, even our faith;</hi> to you it may be ſaid, This is the victory that hath overcome your faith, even the World, and your worldly hearts, look into them, and you will find this to have been the root of your late ſo foul miſcar<g ref="char:EOLhyphen"/>riages, but <hi>manum de tabula, oculos ad coelum.</hi>
+            </p>
+            <p>The Lord ſhowr down his bleſſings upon the head of our So<g ref="char:EOLhyphen"/>veraign Lord King <hi>Charles,</hi> and ſo repleniſh him with the grace of thy Holy Spirit, that he may alwaies incline to thy will, and walk in thy way. Bleſs the Great Council of the Realm aſſembled to<g ref="char:EOLhyphen"/>gether in the High Court of Parliament, grant that with a ſingle eye they may look at thy glory, ever preferring the publick good before their private intereſts;<note place="margin">Job 29.17.</note> ſtrengthen their hands that they may pluck out of the throats of thoſe Cormorants the ſpoyl which they have ſo greedily devoured. Rebuke the madneſs of thoſe falſe Pro<g ref="char:EOLhyphen"/>phets,<note place="margin">2 Pet. 2.3.</note> who through Covetouſneſs with fained words make mar<g ref="char:EOLhyphen"/>chandize of thy people. Lord, bleſs <hi>Levi's</hi> ſubſtance, and accept the work of his hands; and ſuffer not the means of thy Worſhip to come into the hands of thoſe who count all gain godlineſs.</p>
+            <p>This heavy judgment on <hi>Ananias</hi> ſtruck fear into all that heard it: The Lord grant it may have the ſame effect in all that ſhall read theſe lines,<note place="margin">Act. 5.5.11.</note> 
+               <hi>that all Iſrael may hear, and fear, and do no more preſumptu<g ref="char:EOLhyphen"/>ouſly.</hi>
+               <note place="margin">Deut. 17.13.</note> Seeing few have conceived this ſin of Sacriledge in their hearts who have not felt the judgement of God upon their backs;<note place="margin">Deut. 21.21.</note> may therefore the example of his heavy judgments deter and keep back all men from this ſin.</p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</p>
+            <pb facs="tcp:32153:12"/>
+         </div>
+      </body>
+   </text>
+</TEI>
